@@ -1,0 +1,9 @@
+variable "aws_region" {}
+variable "atlantis_vpc" {}
+variable "private_subnet_ids" {}
+variable "public_subnet_ids" {}
+variable "domain" {}
+variable "github_user" {}
+variable "github_token" {}
+variable "alb_ingress_cidr_blocks" {}
+variable "allowed_repo_names" {}
